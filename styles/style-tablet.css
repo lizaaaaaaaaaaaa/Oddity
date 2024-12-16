@@ -1,0 +1,24 @@
+@media screen and (max-width: 768px) {
+    .nav-footer {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .nav-footer>ul:first-child {
+        border-bottom: 1px solid #E0E0E0;
+    }
+
+    .footer__top {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .search__form {
+        width: 100%;
+    }
+
+    .search__input {
+        width: 80%;
+    }
+}

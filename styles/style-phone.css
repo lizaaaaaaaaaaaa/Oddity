@@ -1,0 +1,17 @@
+@media screen and (max-width: 460px) {
+    footer {
+        margin-top: 50px;
+    }
+    
+    .nav-footer {
+        align-items: flex-start;
+    }
+
+    .nav-footer>ul {
+        flex-wrap: wrap;
+    }
+
+    .nav-footer>ul>li {
+        width: 100%;
+    }
+}
